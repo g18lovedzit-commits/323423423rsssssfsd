@@ -3,8 +3,8 @@
     -- anti.lua removed (404)
     print = function() end
     spawn(function () 
-        while task.wait(10) do 
-            setfpscap(10)
+        while task.wait(3) do 
+            setfpscap(3)
         end 
     end)
     function CheckKick(v)
